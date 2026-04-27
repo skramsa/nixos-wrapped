@@ -277,6 +277,7 @@
           };
           location = {
             analogClockInCalendar = false;
+	    autoLocate = true;
             firstDayOfWeek = -1;
             showCalendarEvents = true;
             showCalendarWeather = true;
