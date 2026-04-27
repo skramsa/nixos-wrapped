@@ -88,6 +88,7 @@
           "Mod+Shift+0".move-column-to-workspace = "w9";
 
           "Mod+Space".spawn-sh = "${noctaliaExe} ipc call launcher toggle";
+	  "Mod+Alt+L".spawn-sh = "${noctaliaExe} ipc call sessionMenu lock";
 
           "XF86AudioRaiseVolume".spawn-sh = "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%+";
           "XF86AudioLowerVolume".spawn-sh = "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%-";
@@ -124,6 +125,11 @@
               key = "n";
               desc = "Network";
               cmd = "${noctaliaExe} ipc call network togglePanel";
+            }
+            {
+              key = "s";
+              desc = "Session Menu";
+              cmd = "${noctaliaExe} ipc call sessionMenu toggle";
             }
             {
               key = "f";
