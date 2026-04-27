@@ -46,8 +46,8 @@
 
           "Mod+Q".close-window = {};
           "Mod+F".maximize-column = {};
-          "Mod+G".fullscreen-window = {};
-          "Mod+Shift+F".toggle-window-floating = {};
+          "Mod+Shift+F".fullscreen-window = {};
+          "Mod+T".toggle-window-floating = {};
           "Mod+C".center-column = {};
 
           "Mod+H".focus-column-left = {};
@@ -87,8 +87,7 @@
           "Mod+Shift+9".move-column-to-workspace = "w8";
           "Mod+Shift+0".move-column-to-workspace = "w9";
 
-          "Mod+S".spawn-sh = "${noctaliaExe} ipc call launcher toggle";
-          "Mod+V".spawn-sh = ''${config.pkgs.alsa-utils}/bin/amixer sset Capture toggle'';
+          "Mod+Space".spawn-sh = "${noctaliaExe} ipc call launcher toggle";
 
           "XF86AudioRaiseVolume".spawn-sh = "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%+";
           "XF86AudioLowerVolume".spawn-sh = "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 5%-";
@@ -98,10 +97,10 @@
           "Mod+Ctrl+J".set-window-height = "-5%";
           "Mod+Ctrl+K".set-window-height = "+5%";
 
-          "Mod+WheelScrollDown".focus-column-left = {};
-          "Mod+WheelScrollUp".focus-column-right = {};
-          "Mod+Ctrl+WheelScrollDown".focus-workspace-down = {};
-          "Mod+Ctrl+WheelScrollUp".focus-workspace-up = {};
+          # "Mod+WheelScrollDown".focus-column-left = {};
+          # "Mod+WheelScrollUp".focus-column-right = {};
+          "Mod+WheelScrollDown".focus-workspace-down = {};
+          "Mod+WheelScrollUp".focus-workspace-up = {};
 
           "Mod+Ctrl+S".spawn-sh = ''${lib.getExe config.pkgs.grim} -l 0 - | ${config.pkgs.wl-clipboard}/bin/wl-copy'';
 
@@ -122,8 +121,8 @@
               cmd = "${noctaliaExe} ipc call bluetooth togglePanel";
             }
             {
-              key = "w";
-              desc = "Wifi";
+              key = "n";
+              desc = "Network";
               cmd = "${noctaliaExe} ipc call network togglePanel";
             }
             {
