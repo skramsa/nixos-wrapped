@@ -100,7 +100,7 @@
 
           "Mod+WheelScrollDown".focus-column-left = {};
           "Mod+WheelScrollUp".focus-column-right = {};
-          "Mod+Ctrl+WheelScrollDown".focus-workspace-dMicrophoneown = {};
+          "Mod+Ctrl+WheelScrollDown".focus-workspace-down = {};
           "Mod+Ctrl+WheelScrollUp".focus-workspace-up = {};
 
           "Mod+Ctrl+S".spawn-sh = ''${lib.getExe config.pkgs.grim} -l 0 - | ${config.pkgs.wl-clipboard}/bin/wl-copy'';
