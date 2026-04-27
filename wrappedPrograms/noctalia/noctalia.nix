@@ -56,8 +56,8 @@
             density = "comfortable";
             exclusive = true;
             floating = false;
-            marginHorizontal = 0.25;
-            marginVertical = 0.25;
+            marginHorizontal = 0;
+            marginVertical = 0;
             monitors = [];
             outerCorners = true;
             position = "right";
