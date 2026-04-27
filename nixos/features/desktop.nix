@@ -15,6 +15,7 @@
     environment.systemPackages = [
       selfpkgs.terminal
       pkgs.pcmanfm
+      pkgs.nautilus
       selfpkgs.noctalia-shell
     ];
 

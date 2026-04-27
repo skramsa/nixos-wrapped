@@ -60,7 +60,7 @@
         pkgs.wget
         pkgs.killall
         pkgs.sshfs
-	pkgs.bat
+    	pkgs.bat
         pkgs.fzf
         pkgs.htop
         pkgs.btop

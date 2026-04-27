@@ -15,8 +15,6 @@
       self.nixosModules.general
       self.nixosModules.desktop
 
-
-      self.nixosModules.discord
       self.nixosModules.youtube-music
 
       # self.nixosModules.gaming
