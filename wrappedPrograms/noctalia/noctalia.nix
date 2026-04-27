@@ -102,6 +102,10 @@
                   id = "Microphone";
                 }
                 {
+                  displayMode = "alwaysShow";
+                  id = "Network";
+                }
+                {
                   deviceNativePath = "";
                   displayMode = "alwaysShow";
                   hideIfNotDetected = true;
