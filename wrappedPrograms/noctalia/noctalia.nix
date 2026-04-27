@@ -38,7 +38,7 @@
             position = "center";
             showCategories = true;
             sortByMostUsed = true;
-            terminalCommand = "kitty -e";
+            terminalCommand = "ghostty -e";
             useApp2Unit = false;
             viewMode = "list";
           };
@@ -60,7 +60,7 @@
             marginVertical = 0.25;
             monitors = [];
             outerCorners = true;
-            position = "left";
+            position = "right";
             showCapsule = false;
             showOutline = false;
             transparent = false;
@@ -94,11 +94,12 @@
                   showUnreadBadge = true;
                 }
                 {
-                  id = "PowerProfile";
+                  displayMode = "alwaysHide";
+                  id = "Volume";
                 }
                 {
                   displayMode = "alwaysHide";
-                  id = "Volume";
+                  id = "Microphone";
                 }
                 {
                   deviceNativePath = "";
@@ -106,16 +107,8 @@
                   hideIfNotDetected = true;
                   id = "Battery";
                   showNoctaliaPerformance = false;
-                  showPowerProfiles = false;
+                  showPowerProfiles = true;
                   warningThreshold = 20;
-                }
-                {
-                  displayMode = "alwaysHide";
-                  id = "Microphone";
-                }
-                {
-                  displayMode = "forceOpen";
-                  id = "KeyboardLayout";
                 }
                 {
                   customFont = "";

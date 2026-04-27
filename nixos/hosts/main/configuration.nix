@@ -69,6 +69,7 @@
       };
       flatpak.enable = true;
       udisks2.enable = true;
+      upower.enable = true;
       libinput.enable = true;
       pipewire = {
         enable = true;
