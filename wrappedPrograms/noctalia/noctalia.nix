@@ -60,7 +60,7 @@
             marginVertical = 0;
             monitors = [];
             outerCorners = true;
-            position = "right";
+            position = "left";
             showCapsule = false;
             showOutline = false;
             transparent = false;
