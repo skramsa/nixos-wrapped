@@ -45,6 +45,7 @@
       runtimeInputs = [
         # nix
         pkgs.nil
+	pkgs.nix-info
         pkgs.nixd
         pkgs.statix
         pkgs.alejandra

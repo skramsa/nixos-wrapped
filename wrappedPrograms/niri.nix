@@ -142,7 +142,7 @@
               cmd = "pear-desktop";
             }
             {
-              key = "s";
+              key = "a";
               desc = "Pavucontrol";
               cmd = "${lib.getExe pkgs.pavucontrol}";
             }
